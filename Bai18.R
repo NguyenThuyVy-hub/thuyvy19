@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Aug 30 08:58:34 2024
+Created on Fri Aug 30 20:59:49 2024
 
 @author: nguyenthuyvy
 """
 
-thoi_gian_1 = input("Nhập thời gian thứ nhất(hh:ss:mm): ")
-thoi_gian_2 = input("Nhập thời gian thứ hai(hh:ss:mm): ")
+thoi_gian_1 = input("Nhập thời gian thứ nhất(hh:mm:ss) ")
+thoi_gian_2 = input("Nhập thời gian thứ hai(hh:mm:ss) ")
 hh, mm, ss = map(int, thoi_gian_1.split(":"))
 h, m, s = map(int, thoi_gian_2.split(":"))
 tong_giay_1 = hh * 3600 + mm * 60 + ss
